@@ -1,35 +1,35 @@
 
 public class Rectangle{
 
-    private int width;
-    private int height;
+    private double width;
+    private double height;
 
-    public Rectangle(int width, int height){
+    public Rectangle(double width, double height){
         this.width = width;
         this.height = height;
     }
 
-    public int getWidth(){
+    public double getWidth(){
         return this.width;
     }
 
-    public int getHeight(){
+    public double getHeight(){
         return this.height;
     }
 
-    public void setWidth(int width){
+    public void setWidth(double width){
         this.width = width;
     }
 
-    public void setHeight(int height){
+    public void setHeight(double height){
         this.height = height;
     }
 
-    public int calculateArea(){
+    public double calculateArea(){
         return this.width * this.height;
     }
 
-    public int calculatePerimeter(){
+    public double calculatePerimeter(){
         return 2 * this.width + 2 * this.height;
     }
 }
